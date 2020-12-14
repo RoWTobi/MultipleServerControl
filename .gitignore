@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# PyCharm
+.idea/
+.deepsource.toml
+
 # C extensions
 *.so
 
@@ -37,7 +41,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit tests / coverage reports
 htmlcov/
 .tox/
 .nox/
@@ -127,3 +131,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+test.py
+
+# vscode
+.vscode
+.deepsource.toml
